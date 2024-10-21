@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Layout for About Me */
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .about-content {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .about-picture img {
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            object-fit: cover;
+        }
+
+        /* Adjust greeting text */
+        .main-section h1, .main-section p {
+            text-align: center;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        .main-section p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">MAYANK RANJAN</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section with Shortened Message -->
+    <section id="home" class="main-section">
+        <h1 class="fade-in">Hello, welcome Mayank here!</h1>
+        <p class="fade-in">
+            Great to see you on my page! Scroll down to explore more about me and my journey.
+        </p>
+    </section>
+
+    <!-- About Me Section with Layout Adjustment -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I believe product and technology go hand in hand. With 4 years of experience in technical 
+                product management and software engineering at Philips, I built and delivered applications 
+                to customers in over 10 countries.
+            </p>
+<br>
+            <p>
+                To upskill myself in Product Management and gain new skills in design, technology, and product, 
+                I am pursuing a Master of Science in Product Management at Carnegie Mellon University. 
+                I interned at Hyphenova, a SaaS platform for influencer advertisements.
+            </p>
+          <br>
+            <p>
+                I love the structured processes at MNCs and the fast pace of startups. Currently, I’m working 
+                as a Product Management consultant at PNC Bank, conducting market and user research. 
+                I’m in the final year of my program and looking for Product Management opportunities in the USA.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="Your Picture">
+        </div>
+    </section>
+
+<section id="experience" class="timeline-section">
+    <h2>Journey Highlights</h2>
+    <div class="timeline">
+        <!-- Timeline Years Row -->
+        <div class="years-row">
+            <span>  02/2020</span>
+            <span>06/2020</span>
+            <span>11/2020</span>
+            <span>12/2022</span>
+            <span>12/2023</span>
+            <span>01/2024</span>
+            <span>05/2024</span>
+            <span>08/2024</span>
+            <span>12/2024</span>
+        </div>
+      <div class="logo-row">
+    <span><img src="https://1000logos.net/wp-content/uploads/2017/05/Phillips-Logo.png" alt="Philips Logo" /></span>
+    <span><img src="https://e0.pxfuel.com/wallpapers/596/856/desktop-wallpaper-vit-logo-vellore-institute-of-technology-vector-indian-institute-logo.jpg" alt="VIT Logo" /></span>
+    <span><img src="https://1000logos.net/wp-content/uploads/2017/05/Phillips-Logo.png" alt="Philips Logo" /></span>
+    <span><img src="https://1000logos.net/wp-content/uploads/2017/05/Phillips-Logo.png" alt="Philips Logo" /></span>
+
+    <span><img src="https://1000logos.net/wp-content/uploads/2017/05/Phillips-Logo.png" alt="Philips Logo" /></span>
+    <span><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/CMU_logo_stack_cmyk_red.jpg" alt="CMU Logo" /></span>
+    <span><img src="https://hyphenova.com/wp-content/uploads/2021/10/Untitled_design_-_2021-10-17T220030.333-removebg-preview.png" alt="Hyphenova Logo" /></span>
+    <span><img src="https://logodownload.org/wp-content/uploads/2021/04/pnc-bank-logo-0.png" alt="PNC Bank Logo" /></span>
+ <span><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/CMU_logo_stack_cmyk_red.jpg" alt="CMU Logo" /></span>
+</div>
+
+     
+       
+        
+        <!-- Timeline Events -->
+        <div class="events-row">
+            <div class="event">
+                <p>Joined Philips as a Software Engineer, building websites and automation projects.</p>
+              
+            </div>
+            <div class="event">
+                <p>Graduated from Vellore Institute of Technology with a B.Sc. in Computer Science.</p>
+            </div>
+            <div class="event">
+                <p>Started as an Associate Product Manager at Philips, driving platform products</p>
+              
+            </div>
+            <div class="event">
+                <p>Promoted to Product Manager at Philips, executing B2B and B2C product strategies </p>
+            
+            </div>
+            <div class="event">
+                <p>Contributed $8 million in revenue through my products at Philips </p>
+              
+            </div>
+            <div class="event">
+                <p>Joined Carnegie Mellon University for a Master’s in Product Management.</p>
+            </div>
+            <div class="event">
+                <p>Joined Hyphenova as a Product Manager Intern, improving onboarding experience</p>
+            </div>
+            <div class="event">
+                <p>Joined PNC Bank as a Product Manager Consultant, conducting market research on SMEs</p>
+            </div>
+            <div class="event">
+                <p>Graduated from Carnegie Mellon University with an M.Sc. in Product Management.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <p>Details about your projects will be added here.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-blocks">
+            <div class="contact-block">
+                 <img class="contact-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/mayankranjan22" target="_blank">LinkedIn</a>
+            </div>
+            <div class="contact-block">
+                <img class="contact-icon" src="https://static.vecteezy.com/system/resources/previews/022/484/516/original/google-mail-gmail-icon-logo-symbol-free-png.png" alt="Email">
+                <a href="mailto:youremail@example.com">Email</a>
+            </div>
+            <div class="contact-block">
+                <img class="contact-icon" src="https://image.pngaaa.com/338/619338-middle.png" alt="Phone Call">
+                <a href="tel:+14126364755">Contact</a>
+            </div>
+            <div class="contact-block">
+ <img class="contact-icon" src="https://seeklogo.net/wp-content/uploads/2020/11/google-meet-logo.png" alt="Phone Call">
+                <a href="https://calendar.google.com/calendar/u/0?cid=bXJhbmphbkBhbmRyZXcuY211LmVkdQ" target="_blank">Schedule a Meeting</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
