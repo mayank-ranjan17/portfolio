@@ -139,8 +139,10 @@ nav .logo {
 }
 
 .about-image {
-    flex: 0 0 150px;  /* Fixed width for the image */
-    overflow: hidden;  /* Ensures any overflow is hidden */
+    flex: 0 0 auto;  /* Allow the container to adapt */
+    width: 230px;  /* Set the width of the image */
+    height: auto;  /* Maintain aspect ratio */
+    overflow: hidden;  /* Hide any overflow */
 }
 
 .about-image img {
